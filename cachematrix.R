@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # This function checks if the inverse of an input matrix object has already 
 # been calculated. If so, then it simply returns the cached inverse matrix. 
 # If not, it calculates the inverse matrix and caches it.
-# INPUT: matrix object
+# INPUT: matrix object (from makeCacheMatrix)
 # RETURN: inverse matrix
 #########################
 cacheSolve <- function(x) {
